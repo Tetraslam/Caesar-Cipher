@@ -1,6 +1,6 @@
 from math import gcd
 from random import randrange
-
+ 
 def generate_keypair(p, q):
     if not (is_prime(p) and is_prime(q)):
         raise ValueError('Both numbers must be prime.')
